@@ -38,7 +38,7 @@ jobs:
         run: nuget restore CorporativX.sln
         
       - name: Build the Solution
-        run: msbuild CorporativX.sln
+        run: msbuild CorporativX.sln /p:Configuration=Release
         
         
       
